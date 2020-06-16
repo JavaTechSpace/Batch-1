@@ -1,2 +1,2 @@
 # Batch-1
-Spring boot with Microservices
+SpringBoot +  Microservices + Data JPA + Swagger + Slf4J + Mockito + Spring Mail + Spring Task scheduler + Maven + Jacoco
