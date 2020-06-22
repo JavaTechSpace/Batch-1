@@ -1,13 +1,10 @@
 package com.sts.employeems.resource;
 
-import static org.junit.Assert.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.when;
-
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.Arrays;
-
+import com.sts.employeems.binding.Employees;
+import com.sts.employeems.entity.Employee;
+import com.sts.employeems.exception.EmployeeNotFoundException;
+import com.sts.employeems.exception.FailedToSaveEmployeeException;
+import com.sts.employeems.service.EmployeeService;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -22,11 +19,13 @@ import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.RestClientException;
 
-import com.sts.employeems.binding.Employees;
-import com.sts.employeems.entity.Employee;
-import com.sts.employeems.exception.EmployeeNotFoundException;
-import com.sts.employeems.exception.FailedToSaveEmployeeException;
-import com.sts.employeems.service.EmployeeService;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.Arrays;
+
+import static org.junit.Assert.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.when;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)

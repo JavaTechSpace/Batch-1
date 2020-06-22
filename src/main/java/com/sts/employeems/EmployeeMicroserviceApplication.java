@@ -8,7 +8,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * JIRA ID=12358
- * 
+ *
  * @author Sri
  * @comment It is entry point to application
  */
@@ -17,16 +17,16 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 public class EmployeeMicroserviceApplication {
 
-	static Logger logger = LoggerFactory.getLogger(EmployeeMicroserviceApplication.class);
+    static Logger logger = LoggerFactory.getLogger(EmployeeMicroserviceApplication.class);
 
-	/**
-	 * @author Sri
-	 * @param args
-	 * @comment It is entry point to application
-	 */
-	public static void main(String[] args) {
-		SpringApplication.run(EmployeeMicroserviceApplication.class, args);
-		logger.info("Started running..");
-	}
+    /**
+     * @param args
+     * @author Sri
+     * @comment It is entry point to application
+     */
+    public static void main(String[] args) {
+        SpringApplication.run(EmployeeMicroserviceApplication.class, args);
+        logger.info("Started running..");
+    }
 
 }

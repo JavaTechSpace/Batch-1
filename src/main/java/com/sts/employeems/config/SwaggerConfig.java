@@ -27,7 +27,7 @@ public class SwaggerConfig {
 
 		return new ApiInfoBuilder().title("Employee REST API Documentation").version("1.0.0")
 				.description("\"Employee microservice endpoint documentation\"")
-				.contact(new Contact("John", "www.sriTechSolutions.com", "john.123@sritectsolutions.com"))
+				.contact(new Contact("Sri", "www.sriTechSolutions.com", "sri.java1995@gmail.com"))
 				.license("sriTechSolutions").licenseUrl("www.sriTechSolutions.com").build();
 
 	}

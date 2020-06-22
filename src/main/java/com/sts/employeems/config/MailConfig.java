@@ -25,8 +25,7 @@ public class MailConfig {
 
 		javaMailSender.setUsername("ambatisri4@gmail.com");
 
-		javaMailSender.setPassword(encDeprUtil.decrypt("Ez8Dwi66BsO6Xn9ctwYo8Q=="));// AmbatiSri@123
-
+		javaMailSender.setPassword(encDeprUtil.decrypt("Ez8Dwi66BstwYo8Q=="));
 		Properties javaMailProperties = new Properties();
 		javaMailProperties.put("mail.transport.protocol", "smtp");
 		javaMailProperties.put("mail.smtp.auth", "true");
