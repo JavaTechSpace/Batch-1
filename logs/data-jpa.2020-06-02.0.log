@@ -1,0 +1,60 @@
+2020-06-02 21:28:51 [ExecutorConfigurationSupport.java:shutdown:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-02 21:28:51 [AbstractEntityManagerFactoryBean.java:destroy:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-02 21:28:51 [StartupInfoLogger.java:logStarting:55] - Starting DataJpaApplication on SRI with PID 5384 (F:\downloads\data-jpa\target\classes started by hp in F:\downloads\data-jpa)
+2020-06-02 21:28:51 [SpringApplication.java:logStartupProfileInfo:651] - No active profile set, falling back to default profiles: default
+2020-06-02 21:28:52 [RepositoryConfigurationDelegate.java:registerRepositoriesIn:127] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-02 21:28:52 [RepositoryConfigurationDelegate.java:registerRepositoriesIn:187] - Finished Spring Data repository scanning in 15ms. Found 1 JPA repository interfaces.
+2020-06-02 21:28:52 [TomcatWebServer.java:initialize:108] - Tomcat initialized with port(s): 9091 (http)
+2020-06-02 21:28:52 [DirectJDKLog.java:log:173] - Initializing ProtocolHandler ["http-nio-9091"]
+2020-06-02 21:28:52 [DirectJDKLog.java:log:173] - Starting service [Tomcat]
+2020-06-02 21:28:52 [DirectJDKLog.java:log:173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-02 21:28:52 [DirectJDKLog.java:log:173] - Initializing Spring embedded WebApplicationContext
+2020-06-02 21:28:52 [ServletWebServerApplicationContext.java:prepareWebApplicationContext:284] - Root WebApplicationContext: initialization completed in 751 ms
+2020-06-02 21:28:52 [DBConfig.java:dataSource:43] - Start of dataSource()
+2020-06-02 21:28:52 [Encrypt_Deprypt_Util.java:decrypt:66] - Start of decrypt(...)
+2020-06-02 21:28:52 [Encrypt_Deprypt_Util.java:decrypt:75] - Start of decrypt(...)
+2020-06-02 21:28:52 [DBConfig.java:dataSource:58] - End of dataSource()
+2020-06-02 21:28:52 [LogHelper.java:logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-02 21:28:52 [Dialect.java:<init>:172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-02 21:28:52 [JtaPlatformInitiator.java:initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-02 21:28:52 [AbstractEntityManagerFactoryBean.java:buildNativeEntityManagerFactory:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-02 21:28:52 [OptionalLiveReloadServer.java:startServer:58] - LiveReload server is running on port 35729
+2020-06-02 21:28:52 [JpaBaseConfiguration.java:openEntityManagerInViewInterceptor:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-02 21:28:52 [ExecutorConfigurationSupport.java:initialize:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-02 21:28:52 [DirectJDKLog.java:log:173] - Starting ProtocolHandler ["http-nio-9091"]
+2020-06-02 21:28:52 [TomcatWebServer.java:start:220] - Tomcat started on port(s): 9091 (http) with context path ''
+2020-06-02 21:28:52 [DeferredRepositoryInitializationListener.java:onApplicationEvent:49] - Triggering deferred initialization of Spring Data repositories…
+2020-06-02 21:28:52 [DeferredRepositoryInitializationListener.java:onApplicationEvent:53] - Spring Data repositories initialized!
+2020-06-02 21:28:52 [StartupInfoLogger.java:logStarted:61] - Started DataJpaApplication in 1.046 seconds (JVM running for 1669.788)
+2020-06-02 21:28:52 [ConditionEvaluationDeltaLoggingListener.java:onApplicationEvent:63] - Condition evaluation unchanged
+2020-06-02 21:28:52 [DataJpaApplication.java:main:15] - Started running..
+2020-06-02 21:28:53 [SpringApplicationAdminMXBeanRegistrar.java:shutdown:159] - Application shutdown requested.
+2020-06-02 21:28:53 [ExecutorConfigurationSupport.java:shutdown:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-02 21:28:53 [AbstractEntityManagerFactoryBean.java:destroy:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-02 21:45:06 [AbstractTestContextBootstrapper.java:buildDefaultMergedContextConfiguration:308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sts.datajpa.DataJpaApplicationTests], using SpringBootContextLoader
+2020-06-02 21:45:06 [AbstractContextLoader.java:generateDefaultLocations:264] - Could not detect default resource locations for test class [com.sts.datajpa.DataJpaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-06-02 21:45:06 [AnnotationConfigContextLoaderUtils.java:detectDefaultConfigurationClasses:83] - Could not detect default configuration classes for test class [com.sts.datajpa.DataJpaApplicationTests]: DataJpaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-06-02 21:45:07 [SpringBootTestContextBootstrapper.java:getOrFindConfigurationClasses:237] - Found @SpringBootConfiguration com.sts.datajpa.DataJpaApplication for test class com.sts.datajpa.DataJpaApplicationTests
+2020-06-02 21:45:07 [AbstractTestContextBootstrapper.java:getDefaultTestExecutionListenerClassNames:248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-06-02 21:45:07 [AbstractTestContextBootstrapper.java:getTestExecutionListeners:177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@19f497aa, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@36a58466, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@78e387d6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@9147ba2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3460e4ed, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2efcc0b3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4a453f8d, org.springframework.test.context.event.EventPublishingTestExecutionListener@60a6840c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@53525379, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1be3f8f8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@78b9155e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2ceb68a1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6de33fde, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@69c33ea2]
+2020-06-02 21:45:09 [StartupInfoLogger.java:logStarting:55] - Starting DataJpaApplicationTests on SRI with PID 7080 (started by hp in F:\downloads\data-jpa)
+2020-06-02 21:45:09 [SpringApplication.java:logStartupProfileInfo:651] - No active profile set, falling back to default profiles: default
+2020-06-02 21:45:11 [RepositoryConfigurationDelegate.java:registerRepositoriesIn:127] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-02 21:45:11 [RepositoryConfigurationDelegate.java:registerRepositoriesIn:187] - Finished Spring Data repository scanning in 157ms. Found 1 JPA repository interfaces.
+2020-06-02 21:45:13 [DBConfig.java:dataSource:43] - Start of dataSource()
+2020-06-02 21:45:13 [Encrypt_Deprypt_Util.java:decrypt:66] - Start of decrypt(...)
+2020-06-02 21:45:13 [Encrypt_Deprypt_Util.java:decrypt:75] - Start of decrypt(...)
+2020-06-02 21:45:13 [DBConfig.java:dataSource:58] - End of dataSource()
+2020-06-02 21:45:13 [LogHelper.java:logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-02 21:45:14 [Version.java:logVersion:44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-02 21:45:14 [JavaReflectionManager.java:<clinit>:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-02 21:45:16 [Dialect.java:<init>:172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-02 21:45:18 [JtaPlatformInitiator.java:initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-02 21:45:18 [AbstractEntityManagerFactoryBean.java:buildNativeEntityManagerFactory:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-02 21:45:19 [JpaBaseConfiguration.java:openEntityManagerInViewInterceptor:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-02 21:45:21 [ExecutorConfigurationSupport.java:initialize:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-02 21:45:22 [DeferredRepositoryInitializationListener.java:onApplicationEvent:49] - Triggering deferred initialization of Spring Data repositories…
+2020-06-02 21:45:23 [DeferredRepositoryInitializationListener.java:onApplicationEvent:53] - Spring Data repositories initialized!
+2020-06-02 21:45:23 [StartupInfoLogger.java:logStarted:61] - Started DataJpaApplicationTests in 15.459 seconds (JVM running for 27.012)
+2020-06-02 21:45:25 [ExecutorConfigurationSupport.java:shutdown:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-02 21:45:25 [AbstractEntityManagerFactoryBean.java:destroy:598] - Closing JPA EntityManagerFactory for persistence unit 'default'

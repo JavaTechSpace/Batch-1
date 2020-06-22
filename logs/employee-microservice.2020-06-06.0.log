@@ -1,0 +1,256 @@
+2020-06-06 06:57:54 [StartupInfoLogger.java:logStarting:55] - Starting EmployeeMicroserviceApplication on SRI with PID 12024 (F:\downloads\employee-microservice\target\classes started by hp in F:\downloads\employee-microservice)
+2020-06-06 06:57:54 [SpringApplication.java:logStartupProfileInfo:651] - No active profile set, falling back to default profiles: default
+2020-06-06 06:57:54 [DeferredLog.java:logTo:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-06 06:57:54 [DeferredLog.java:logTo:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-06 06:57:58 [RepositoryConfigurationDelegate.java:registerRepositoriesIn:127] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-06 06:57:59 [RepositoryConfigurationDelegate.java:registerRepositoriesIn:187] - Finished Spring Data repository scanning in 199ms. Found 1 JPA repository interfaces.
+2020-06-06 06:58:01 [TomcatWebServer.java:initialize:108] - Tomcat initialized with port(s): 9091 (http)
+2020-06-06 06:58:01 [DirectJDKLog.java:log:173] - Initializing ProtocolHandler ["http-nio-9091"]
+2020-06-06 06:58:01 [DirectJDKLog.java:log:173] - Starting service [Tomcat]
+2020-06-06 06:58:01 [DirectJDKLog.java:log:173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-06 06:58:01 [DirectJDKLog.java:log:173] - Initializing Spring embedded WebApplicationContext
+2020-06-06 06:58:01 [ServletWebServerApplicationContext.java:prepareWebApplicationContext:284] - Root WebApplicationContext: initialization completed in 6984 ms
+2020-06-06 06:58:01 [DBConfig.java:entityManagerFactoryBean:80] - Start of entityManagerFactoryBean()
+2020-06-06 06:58:01 [DBConfig.java:dataSource:43] - Start of dataSource()
+2020-06-06 06:58:01 [DBConfig.java:dataSource:53] - decrypted password for database = vCPs5STwqnWfoTYgQWdfYA==
+2020-06-06 06:58:01 [Encrypt_Deprypt_Util.java:decrypt:66] - Start of decrypt(...)
+2020-06-06 06:58:01 [Encrypt_Deprypt_Util.java:decrypt:75] - Start of decrypt(...)
+2020-06-06 06:58:01 [DBConfig.java:dataSource:62] - End of dataSource()
+2020-06-06 06:58:01 [DBConfig.java:entityManagerFactoryBean:91] - End of entityManagerFactoryBean()
+2020-06-06 06:58:01 [LogHelper.java:logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-06 06:58:02 [Version.java:logVersion:44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-06 06:58:02 [JavaReflectionManager.java:<clinit>:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-06 06:58:04 [Dialect.java:<init>:172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-06 06:58:06 [JtaPlatformInitiator.java:initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-06 06:58:06 [AbstractEntityManagerFactoryBean.java:buildNativeEntityManagerFactory:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-06 06:58:06 [OptionalLiveReloadServer.java:startServer:58] - LiveReload server is running on port 35729
+2020-06-06 06:58:07 [JpaBaseConfiguration.java:openEntityManagerInViewInterceptor:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-06 06:58:07 [DBConfig.java:transactionManager:105] - Start of transactionManager(...)
+2020-06-06 06:58:07 [DBConfig.java:transactionManager:110] - End of transactionManager(...)
+2020-06-06 06:58:07 [PropertySourcedRequestMappingHandlerMapping.java:initHandlerMethods:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-06 06:58:08 [ExecutorConfigurationSupport.java:initialize:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-06 06:58:08 [DirectJDKLog.java:log:173] - Starting ProtocolHandler ["http-nio-9091"]
+2020-06-06 06:58:08 [TomcatWebServer.java:start:220] - Tomcat started on port(s): 9091 (http) with context path ''
+2020-06-06 06:58:08 [DocumentationPluginsBootstrapper.java:start:160] - Context refreshed
+2020-06-06 06:58:08 [DocumentationPluginsBootstrapper.java:start:163] - Found 1 custom documentation plugin(s)
+2020-06-06 06:58:08 [ApiListingReferenceScanner.java:scan:41] - Scanning for api listing references
+2020-06-06 06:58:09 [DeferredRepositoryInitializationListener.java:onApplicationEvent:49] - Triggering deferred initialization of Spring Data repositories…
+2020-06-06 06:58:09 [DeferredRepositoryInitializationListener.java:onApplicationEvent:53] - Spring Data repositories initialized!
+2020-06-06 06:58:09 [StartupInfoLogger.java:logStarted:61] - Started EmployeeMicroserviceApplication in 16.782 seconds (JVM running for 25.059)
+2020-06-06 06:58:09 [EmployeeMicroserviceApplication.java:main:15] - Started running..
+2020-06-06 07:09:39 [DirectJDKLog.java:log:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-06 07:09:39 [FrameworkServlet.java:initServletBean:525] - Initializing Servlet 'dispatcherServlet'
+2020-06-06 07:09:40 [FrameworkServlet.java:initServletBean:547] - Completed initialization in 540 ms
+2020-06-06 07:13:33 [ExecutorConfigurationSupport.java:shutdown:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-06 07:13:33 [AbstractEntityManagerFactoryBean.java:destroy:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-06 07:13:34 [StartupInfoLogger.java:logStarting:55] - Starting EmployeeMicroserviceApplication on SRI with PID 12024 (F:\downloads\employee-microservice\target\classes started by hp in F:\downloads\employee-microservice)
+2020-06-06 07:13:34 [SpringApplication.java:logStartupProfileInfo:651] - No active profile set, falling back to default profiles: default
+2020-06-06 07:13:38 [RepositoryConfigurationDelegate.java:registerRepositoriesIn:127] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-06 07:13:38 [RepositoryConfigurationDelegate.java:registerRepositoriesIn:187] - Finished Spring Data repository scanning in 131ms. Found 1 JPA repository interfaces.
+2020-06-06 07:13:41 [TomcatWebServer.java:initialize:108] - Tomcat initialized with port(s): 9091 (http)
+2020-06-06 07:13:41 [DirectJDKLog.java:log:173] - Initializing ProtocolHandler ["http-nio-9091"]
+2020-06-06 07:13:41 [DirectJDKLog.java:log:173] - Starting service [Tomcat]
+2020-06-06 07:13:41 [DirectJDKLog.java:log:173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-06 07:13:41 [DirectJDKLog.java:log:173] - Initializing Spring embedded WebApplicationContext
+2020-06-06 07:13:41 [ServletWebServerApplicationContext.java:prepareWebApplicationContext:284] - Root WebApplicationContext: initialization completed in 6470 ms
+2020-06-06 07:13:41 [DBConfig.java:entityManagerFactoryBean:80] - Start of entityManagerFactoryBean()
+2020-06-06 07:13:41 [DBConfig.java:dataSource:43] - Start of dataSource()
+2020-06-06 07:13:41 [DBConfig.java:dataSource:53] - decrypted password for database = vCPs5STwqnWfoTYgQWdfYA==
+2020-06-06 07:13:41 [Encrypt_Deprypt_Util.java:decrypt:66] - Start of decrypt(...)
+2020-06-06 07:13:41 [Encrypt_Deprypt_Util.java:decrypt:75] - Start of decrypt(...)
+2020-06-06 07:13:41 [DBConfig.java:dataSource:62] - End of dataSource()
+2020-06-06 07:13:41 [DBConfig.java:entityManagerFactoryBean:91] - End of entityManagerFactoryBean()
+2020-06-06 07:13:41 [LogHelper.java:logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-06 07:13:42 [Dialect.java:<init>:172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-06 07:13:42 [JtaPlatformInitiator.java:initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-06 07:13:42 [AbstractEntityManagerFactoryBean.java:buildNativeEntityManagerFactory:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-06 07:13:42 [OptionalLiveReloadServer.java:startServer:58] - LiveReload server is running on port 35729
+2020-06-06 07:13:42 [JpaBaseConfiguration.java:openEntityManagerInViewInterceptor:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-06 07:13:43 [DBConfig.java:transactionManager:105] - Start of transactionManager(...)
+2020-06-06 07:13:43 [DBConfig.java:transactionManager:110] - End of transactionManager(...)
+2020-06-06 07:13:43 [PropertySourcedRequestMappingHandlerMapping.java:initHandlerMethods:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-06 07:13:43 [ExecutorConfigurationSupport.java:initialize:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-06 07:13:43 [DirectJDKLog.java:log:173] - Starting ProtocolHandler ["http-nio-9091"]
+2020-06-06 07:13:43 [TomcatWebServer.java:start:220] - Tomcat started on port(s): 9091 (http) with context path ''
+2020-06-06 07:13:43 [DocumentationPluginsBootstrapper.java:start:160] - Context refreshed
+2020-06-06 07:13:43 [DocumentationPluginsBootstrapper.java:start:163] - Found 1 custom documentation plugin(s)
+2020-06-06 07:13:43 [ApiListingReferenceScanner.java:scan:41] - Scanning for api listing references
+2020-06-06 07:13:43 [DeferredRepositoryInitializationListener.java:onApplicationEvent:49] - Triggering deferred initialization of Spring Data repositories…
+2020-06-06 07:13:43 [DeferredRepositoryInitializationListener.java:onApplicationEvent:53] - Spring Data repositories initialized!
+2020-06-06 07:13:43 [StartupInfoLogger.java:logStarted:61] - Started EmployeeMicroserviceApplication in 9.137 seconds (JVM running for 958.886)
+2020-06-06 07:13:43 [ConditionEvaluationDeltaLoggingListener.java:onApplicationEvent:63] - Condition evaluation unchanged
+2020-06-06 07:13:43 [EmployeeMicroserviceApplication.java:main:15] - Started running..
+2020-06-06 07:13:50 [ExecutorConfigurationSupport.java:shutdown:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-06 07:13:50 [AbstractEntityManagerFactoryBean.java:destroy:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-06 07:13:50 [StartupInfoLogger.java:logStarting:55] - Starting EmployeeMicroserviceApplication on SRI with PID 12024 (F:\downloads\employee-microservice\target\classes started by hp in F:\downloads\employee-microservice)
+2020-06-06 07:13:50 [SpringApplication.java:logStartupProfileInfo:651] - No active profile set, falling back to default profiles: default
+2020-06-06 07:13:52 [RepositoryConfigurationDelegate.java:registerRepositoriesIn:127] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-06 07:13:52 [RepositoryConfigurationDelegate.java:registerRepositoriesIn:187] - Finished Spring Data repository scanning in 14ms. Found 1 JPA repository interfaces.
+2020-06-06 07:13:53 [TomcatWebServer.java:initialize:108] - Tomcat initialized with port(s): 9091 (http)
+2020-06-06 07:13:53 [DirectJDKLog.java:log:173] - Initializing ProtocolHandler ["http-nio-9091"]
+2020-06-06 07:13:53 [DirectJDKLog.java:log:173] - Starting service [Tomcat]
+2020-06-06 07:13:53 [DirectJDKLog.java:log:173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-06 07:13:53 [DirectJDKLog.java:log:173] - Initializing Spring embedded WebApplicationContext
+2020-06-06 07:13:53 [ServletWebServerApplicationContext.java:prepareWebApplicationContext:284] - Root WebApplicationContext: initialization completed in 2453 ms
+2020-06-06 07:13:53 [DBConfig.java:entityManagerFactoryBean:80] - Start of entityManagerFactoryBean()
+2020-06-06 07:13:53 [DBConfig.java:dataSource:43] - Start of dataSource()
+2020-06-06 07:13:53 [DBConfig.java:dataSource:53] - decrypted password for database = vCPs5STwqnWfoTYgQWdfYA==
+2020-06-06 07:13:53 [Encrypt_Deprypt_Util.java:decrypt:66] - Start of decrypt(...)
+2020-06-06 07:13:53 [Encrypt_Deprypt_Util.java:decrypt:75] - Start of decrypt(...)
+2020-06-06 07:13:53 [DBConfig.java:dataSource:62] - End of dataSource()
+2020-06-06 07:13:53 [DBConfig.java:entityManagerFactoryBean:91] - End of entityManagerFactoryBean()
+2020-06-06 07:13:53 [LogHelper.java:logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-06 07:13:53 [Dialect.java:<init>:172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-06 07:13:53 [JtaPlatformInitiator.java:initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-06 07:13:53 [AbstractEntityManagerFactoryBean.java:buildNativeEntityManagerFactory:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-06 07:13:53 [OptionalLiveReloadServer.java:startServer:58] - LiveReload server is running on port 35729
+2020-06-06 07:13:53 [JpaBaseConfiguration.java:openEntityManagerInViewInterceptor:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-06 07:13:53 [DBConfig.java:transactionManager:105] - Start of transactionManager(...)
+2020-06-06 07:13:53 [DBConfig.java:transactionManager:110] - End of transactionManager(...)
+2020-06-06 07:13:53 [PropertySourcedRequestMappingHandlerMapping.java:initHandlerMethods:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-06 07:13:53 [ExecutorConfigurationSupport.java:initialize:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-06 07:13:54 [DirectJDKLog.java:log:173] - Starting ProtocolHandler ["http-nio-9091"]
+2020-06-06 07:13:54 [TomcatWebServer.java:start:220] - Tomcat started on port(s): 9091 (http) with context path ''
+2020-06-06 07:13:54 [DocumentationPluginsBootstrapper.java:start:160] - Context refreshed
+2020-06-06 07:13:54 [DocumentationPluginsBootstrapper.java:start:163] - Found 1 custom documentation plugin(s)
+2020-06-06 07:13:54 [ApiListingReferenceScanner.java:scan:41] - Scanning for api listing references
+2020-06-06 07:13:54 [DeferredRepositoryInitializationListener.java:onApplicationEvent:49] - Triggering deferred initialization of Spring Data repositories…
+2020-06-06 07:13:54 [DeferredRepositoryInitializationListener.java:onApplicationEvent:53] - Spring Data repositories initialized!
+2020-06-06 07:13:54 [StartupInfoLogger.java:logStarted:61] - Started EmployeeMicroserviceApplication in 3.605 seconds (JVM running for 969.613)
+2020-06-06 07:13:54 [ConditionEvaluationDeltaLoggingListener.java:onApplicationEvent:63] - Condition evaluation unchanged
+2020-06-06 07:13:54 [EmployeeMicroserviceApplication.java:main:15] - Started running..
+2020-06-06 07:13:57 [ExecutorConfigurationSupport.java:shutdown:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-06 07:13:57 [AbstractEntityManagerFactoryBean.java:destroy:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-06 07:13:58 [StartupInfoLogger.java:logStarting:55] - Starting EmployeeMicroserviceApplication on SRI with PID 12024 (F:\downloads\employee-microservice\target\classes started by hp in F:\downloads\employee-microservice)
+2020-06-06 07:13:58 [SpringApplication.java:logStartupProfileInfo:651] - No active profile set, falling back to default profiles: default
+2020-06-06 07:13:59 [RepositoryConfigurationDelegate.java:registerRepositoriesIn:127] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-06 07:13:59 [RepositoryConfigurationDelegate.java:registerRepositoriesIn:187] - Finished Spring Data repository scanning in 12ms. Found 1 JPA repository interfaces.
+2020-06-06 07:13:59 [TomcatWebServer.java:initialize:108] - Tomcat initialized with port(s): 9091 (http)
+2020-06-06 07:13:59 [DirectJDKLog.java:log:173] - Initializing ProtocolHandler ["http-nio-9091"]
+2020-06-06 07:13:59 [DirectJDKLog.java:log:173] - Starting service [Tomcat]
+2020-06-06 07:13:59 [DirectJDKLog.java:log:173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-06 07:13:59 [DirectJDKLog.java:log:173] - Initializing Spring embedded WebApplicationContext
+2020-06-06 07:13:59 [ServletWebServerApplicationContext.java:prepareWebApplicationContext:284] - Root WebApplicationContext: initialization completed in 1445 ms
+2020-06-06 07:13:59 [DBConfig.java:entityManagerFactoryBean:80] - Start of entityManagerFactoryBean()
+2020-06-06 07:13:59 [DBConfig.java:dataSource:43] - Start of dataSource()
+2020-06-06 07:13:59 [DBConfig.java:dataSource:53] - decrypted password for database = vCPs5STwqnWfoTYgQWdfYA==
+2020-06-06 07:13:59 [Encrypt_Deprypt_Util.java:decrypt:66] - Start of decrypt(...)
+2020-06-06 07:13:59 [Encrypt_Deprypt_Util.java:decrypt:75] - Start of decrypt(...)
+2020-06-06 07:13:59 [DBConfig.java:dataSource:62] - End of dataSource()
+2020-06-06 07:13:59 [DBConfig.java:entityManagerFactoryBean:91] - End of entityManagerFactoryBean()
+2020-06-06 07:13:59 [LogHelper.java:logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-06 07:13:59 [Dialect.java:<init>:172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-06 07:13:59 [JtaPlatformInitiator.java:initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-06 07:13:59 [AbstractEntityManagerFactoryBean.java:buildNativeEntityManagerFactory:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-06 07:13:59 [OptionalLiveReloadServer.java:startServer:58] - LiveReload server is running on port 35729
+2020-06-06 07:13:59 [JpaBaseConfiguration.java:openEntityManagerInViewInterceptor:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-06 07:14:00 [DBConfig.java:transactionManager:105] - Start of transactionManager(...)
+2020-06-06 07:14:00 [DBConfig.java:transactionManager:110] - End of transactionManager(...)
+2020-06-06 07:14:00 [PropertySourcedRequestMappingHandlerMapping.java:initHandlerMethods:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-06 07:14:00 [ExecutorConfigurationSupport.java:initialize:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-06 07:14:00 [DirectJDKLog.java:log:173] - Starting ProtocolHandler ["http-nio-9091"]
+2020-06-06 07:14:00 [TomcatWebServer.java:start:220] - Tomcat started on port(s): 9091 (http) with context path ''
+2020-06-06 07:14:00 [DocumentationPluginsBootstrapper.java:start:160] - Context refreshed
+2020-06-06 07:14:00 [DocumentationPluginsBootstrapper.java:start:163] - Found 1 custom documentation plugin(s)
+2020-06-06 07:14:00 [ApiListingReferenceScanner.java:scan:41] - Scanning for api listing references
+2020-06-06 07:14:00 [DeferredRepositoryInitializationListener.java:onApplicationEvent:49] - Triggering deferred initialization of Spring Data repositories…
+2020-06-06 07:14:00 [DeferredRepositoryInitializationListener.java:onApplicationEvent:53] - Spring Data repositories initialized!
+2020-06-06 07:14:00 [StartupInfoLogger.java:logStarted:61] - Started EmployeeMicroserviceApplication in 2.401 seconds (JVM running for 975.839)
+2020-06-06 07:14:00 [ConditionEvaluationDeltaLoggingListener.java:onApplicationEvent:63] - Condition evaluation unchanged
+2020-06-06 07:14:00 [EmployeeMicroserviceApplication.java:main:15] - Started running..
+2020-06-06 07:53:22 [DirectJDKLog.java:log:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-06 07:53:23 [FrameworkServlet.java:initServletBean:525] - Initializing Servlet 'dispatcherServlet'
+2020-06-06 07:53:25 [FrameworkServlet.java:initServletBean:547] - Completed initialization in 1804 ms
+2020-06-06 07:53:32 [EmployeeResource.java:getByEmpId:106] - Start of getByEmpId(...) with empId=1423
+2020-06-06 07:53:32 [EmployeeService.java:findByEmpId:137] - Start of findByEmpId(...) with empId=1423
+2020-06-06 07:53:45 [EmployeeService.java:findByEmpId:148] - Start of findByEmpId(...) with empId=1423
+2020-06-06 07:53:45 [EmployeeResource.java:getByEmpId:115] - End of getByEmpId(...) with empId=1423
+2020-06-06 08:04:24 [EmployeeResource.java:save:150] - End of save(...)
+2020-06-06 08:04:24 [EmployeeService.java:save:71] - Start of save(...) 
+2020-06-06 08:04:29 [EmployeeService.java:save:85] - This is not First Employee Object. So We are incrementing with 2 : 1433
+2020-06-06 08:04:32 [EmployeeService.java:save:120] - End of save(...) with with empId= 1433
+2020-06-06 08:04:32 [EmployeeResource.java:save:159] - End of save(...)
+2020-06-06 08:08:12 [EmployeeResource.java:getAllEmployee:61] - Start of getAllEmployee()
+2020-06-06 08:08:12 [EmployeeService.java:getAll:34] - Start of getAll()
+2020-06-06 08:08:18 [EmployeeService.java:getAll:44] - End of getAll()
+2020-06-06 08:08:18 [EmployeeResource.java:getAllEmployee:70] - End of getAllEmployee()
+2020-06-06 08:08:21 [AbstractHandlerExceptionResolver.java:logException:199] - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter for [class java.util.ArrayList] with preset Content-Type 'null']
+2020-06-06 08:09:58 [EmployeeResource.java:getAllEmployee:61] - Start of getAllEmployee()
+2020-06-06 08:09:58 [EmployeeService.java:getAll:34] - Start of getAll()
+2020-06-06 08:09:58 [EmployeeService.java:getAll:44] - End of getAll()
+2020-06-06 08:09:58 [EmployeeResource.java:getAllEmployee:70] - End of getAllEmployee()
+2020-06-06 08:10:09 [EmployeeResource.java:getAllEmployee:61] - Start of getAllEmployee()
+2020-06-06 08:10:09 [EmployeeService.java:getAll:34] - Start of getAll()
+2020-06-06 08:10:10 [EmployeeService.java:getAll:44] - End of getAll()
+2020-06-06 08:10:10 [EmployeeResource.java:getAllEmployee:70] - End of getAllEmployee()
+2020-06-06 08:10:10 [AbstractHandlerExceptionResolver.java:logException:199] - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter for [class java.util.ArrayList] with preset Content-Type 'null']
+2020-06-06 08:10:10 [AbstractHandlerExceptionResolver.java:logException:199] - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2020-06-06 08:13:20 [ExecutorConfigurationSupport.java:shutdown:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-06 08:13:20 [AbstractEntityManagerFactoryBean.java:destroy:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-06 08:13:35 [StartupInfoLogger.java:logStarting:55] - Starting EmployeeMicroserviceApplication on SRI with PID 12024 (F:\downloads\employee-microservice\target\classes started by hp in F:\downloads\employee-microservice)
+2020-06-06 08:13:35 [SpringApplication.java:logStartupProfileInfo:651] - No active profile set, falling back to default profiles: default
+2020-06-06 08:17:21 [StartupInfoLogger.java:logStarting:55] - Starting EmployeeMicroserviceApplication on SRI with PID 11760 (F:\downloads\employee-microservice\target\classes started by hp in F:\downloads\employee-microservice)
+2020-06-06 08:17:21 [SpringApplication.java:logStartupProfileInfo:651] - No active profile set, falling back to default profiles: default
+2020-06-06 08:17:21 [DeferredLog.java:logTo:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-06 08:17:21 [DeferredLog.java:logTo:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-06 08:17:23 [RepositoryConfigurationDelegate.java:registerRepositoriesIn:127] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-06 08:17:23 [RepositoryConfigurationDelegate.java:registerRepositoriesIn:187] - Finished Spring Data repository scanning in 126ms. Found 1 JPA repository interfaces.
+2020-06-06 08:17:25 [TomcatWebServer.java:initialize:108] - Tomcat initialized with port(s): 9091 (http)
+2020-06-06 08:17:25 [DirectJDKLog.java:log:173] - Initializing ProtocolHandler ["http-nio-9091"]
+2020-06-06 08:17:25 [DirectJDKLog.java:log:173] - Starting service [Tomcat]
+2020-06-06 08:17:25 [DirectJDKLog.java:log:173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-06 08:17:26 [DirectJDKLog.java:log:173] - Initializing Spring embedded WebApplicationContext
+2020-06-06 08:17:26 [ServletWebServerApplicationContext.java:prepareWebApplicationContext:284] - Root WebApplicationContext: initialization completed in 4832 ms
+2020-06-06 08:17:26 [DBConfig.java:entityManagerFactoryBean:80] - Start of entityManagerFactoryBean()
+2020-06-06 08:17:26 [DBConfig.java:dataSource:43] - Start of dataSource()
+2020-06-06 08:17:26 [DBConfig.java:dataSource:53] - decrypted password for database = vCPs5STwqnWfoTYgQWdfYA==
+2020-06-06 08:17:26 [Encrypt_Deprypt_Util.java:decrypt:66] - Start of decrypt(...)
+2020-06-06 08:17:26 [Encrypt_Deprypt_Util.java:decrypt:75] - Start of decrypt(...)
+2020-06-06 08:17:26 [DBConfig.java:dataSource:62] - End of dataSource()
+2020-06-06 08:17:26 [DBConfig.java:entityManagerFactoryBean:91] - End of entityManagerFactoryBean()
+2020-06-06 08:17:26 [LogHelper.java:logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-06 08:17:26 [Version.java:logVersion:44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-06 08:17:27 [JavaReflectionManager.java:<clinit>:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-06 08:17:28 [Dialect.java:<init>:172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-06 08:17:30 [JtaPlatformInitiator.java:initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-06 08:17:30 [AbstractEntityManagerFactoryBean.java:buildNativeEntityManagerFactory:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-06 08:17:30 [OptionalLiveReloadServer.java:startServer:61] - Unable to start LiveReload server
+2020-06-06 08:17:30 [JpaBaseConfiguration.java:openEntityManagerInViewInterceptor:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-06 08:17:31 [DBConfig.java:transactionManager:105] - Start of transactionManager(...)
+2020-06-06 08:17:31 [DBConfig.java:transactionManager:110] - End of transactionManager(...)
+2020-06-06 08:17:31 [PropertySourcedRequestMappingHandlerMapping.java:initHandlerMethods:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-06 08:17:31 [ExecutorConfigurationSupport.java:initialize:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-06 08:17:32 [DirectJDKLog.java:log:173] - Starting ProtocolHandler ["http-nio-9091"]
+2020-06-06 08:17:32 [TomcatWebServer.java:start:220] - Tomcat started on port(s): 9091 (http) with context path ''
+2020-06-06 08:17:32 [DocumentationPluginsBootstrapper.java:start:160] - Context refreshed
+2020-06-06 08:17:32 [DocumentationPluginsBootstrapper.java:start:163] - Found 1 custom documentation plugin(s)
+2020-06-06 08:17:32 [ApiListingReferenceScanner.java:scan:41] - Scanning for api listing references
+2020-06-06 08:17:32 [DeferredRepositoryInitializationListener.java:onApplicationEvent:49] - Triggering deferred initialization of Spring Data repositories…
+2020-06-06 08:17:33 [DeferredRepositoryInitializationListener.java:onApplicationEvent:53] - Spring Data repositories initialized!
+2020-06-06 08:17:33 [StartupInfoLogger.java:logStarted:61] - Started EmployeeMicroserviceApplication in 13.372 seconds (JVM running for 16.14)
+2020-06-06 08:17:33 [EmployeeMicroserviceApplication.java:main:15] - Started running..
+2020-06-06 08:17:53 [DirectJDKLog.java:log:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-06 08:17:53 [FrameworkServlet.java:initServletBean:525] - Initializing Servlet 'dispatcherServlet'
+2020-06-06 08:17:53 [FrameworkServlet.java:initServletBean:547] - Completed initialization in 24 ms
+2020-06-06 08:17:53 [EmployeeResource.java:getAllEmployee:63] - Start of getAllEmployee()
+2020-06-06 08:17:53 [EmployeeService.java:getAll:34] - Start of getAll()
+2020-06-06 08:17:54 [EmployeeService.java:getAll:44] - End of getAll()
+2020-06-06 08:17:54 [EmployeeResource.java:getAllEmployee:76] - End of getAllEmployee()
+2020-06-06 08:22:36 [EmployeeResource.java:getByEmpId:112] - Start of getByEmpId(...) with empId=1423
+2020-06-06 08:22:36 [EmployeeService.java:findByEmpId:137] - Start of findByEmpId(...) with empId=1423
+2020-06-06 08:22:36 [EmployeeService.java:findByEmpId:148] - Start of findByEmpId(...) with empId=1423
+2020-06-06 08:22:36 [EmployeeResource.java:getByEmpId:121] - End of getByEmpId(...) with empId=1423
+2020-06-06 08:22:40 [EmployeeResource.java:getAllEmployee:63] - Start of getAllEmployee()
+2020-06-06 08:22:40 [EmployeeService.java:getAll:34] - Start of getAll()
+2020-06-06 08:22:41 [EmployeeService.java:getAll:44] - End of getAll()
+2020-06-06 08:22:41 [EmployeeResource.java:getAllEmployee:76] - End of getAllEmployee()
+2020-06-06 21:04:43 [SpringApplicationAdminMXBeanRegistrar.java:shutdown:159] - Application shutdown requested.
+2020-06-06 21:04:48 [SpringApplicationAdminMXBeanRegistrar.java:shutdown:159] - Application shutdown requested.
+2020-06-06 21:04:49 [SpringApplicationAdminMXBeanRegistrar.java:shutdown:159] - Application shutdown requested.
+2020-06-06 21:04:49 [SpringApplicationAdminMXBeanRegistrar.java:shutdown:159] - Application shutdown requested.
+2020-06-06 21:04:48 [SpringApplicationAdminMXBeanRegistrar.java:shutdown:159] - Application shutdown requested.
+2020-06-06 21:04:48 [SpringApplicationAdminMXBeanRegistrar.java:shutdown:159] - Application shutdown requested.
+2020-06-06 21:04:48 [SpringApplicationAdminMXBeanRegistrar.java:shutdown:159] - Application shutdown requested.
+2020-06-06 21:04:49 [SpringApplicationAdminMXBeanRegistrar.java:shutdown:159] - Application shutdown requested.
+2020-06-06 21:04:52 [ExecutorConfigurationSupport.java:shutdown:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-06 21:04:52 [AbstractEntityManagerFactoryBean.java:destroy:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
